@@ -267,7 +267,7 @@ class GameScene extends Phaser.Scene {
     }
 
     showStartMessage() {
-        const startText = this.add.text(400, 300, 'Welcome to your Love Quest!\n\nCollect the love tokens to discover\n25 reasons why you\'re amazing!\n\nPress any key to start', {
+        const startText = this.add.text(400, 300, 'Welcome to your Love Quest!\n\nCollect the love tokens to discover\n25 reasons why I love you!\n\nPress any key to start', {
             fontSize: '24px',
             fill: '#FFFFFF',
             align: 'center',
