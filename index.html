@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>25 Reasons I Love You - A Love Quest Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.70.0/dist/phaser.min.js"></script>
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-title">
+            <h1>💕 25 Reasons I Love You 💕</h1>
+            <p>A special journey through my heart</p>
+        </div>
+        <div id="phaser-game"></div>
+        <div id="game-ui">
+            <div id="level-counter">Level: <span id="current-level">1</span> / 25</div>
+            <div id="controls">
+                <p>Use ⬅️➡️⬆️⬇️ or WASD to move</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Love Message Modal -->
+    <div id="love-modal" class="modal hidden">
+        <div class="modal-content">
+            <h3 id="message-title">Reason #1</h3>
+            <p id="message-text"></p>
+            <div id="message-media"></div>
+            <button id="next-level-btn" class="love-button">Next Level 💖</button>
+        </div>
+    </div>
+
+    <!-- Final Celebration Modal -->
+    <div id="final-modal" class="modal hidden">
+        <div class="modal-content celebration">
+            <div class="fireworks"></div>
+            <h2>🎉 You've collected all 25 reasons! 🎉</h2>
+            <p>Thank you for being the most amazing person in my life!</p>
+            <div class="heart-rain"></div>
+            <button id="restart-btn" class="love-button">Play Again 💕</button>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="game.js"></script>
+</body>
+</html> 

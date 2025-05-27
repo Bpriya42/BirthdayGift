@@ -1,0 +1,30 @@
+📸 MEDIA FOLDER INSTRUCTIONS 📸
+
+This folder is where you'll add your personal photos and videos!
+
+SUPPORTED FILE TYPES:
+🖼️ Images: .jpg, .png, .gif
+🎥 Videos: .mp4, .webm, .ogg
+
+RECOMMENDED SIZES:
+📏 Images: 400px width or smaller
+📦 Videos: Under 10MB for fast loading
+
+EXAMPLE FILES TO ADD:
+- boardgames.png (for message #1)
+- laugh.jpg (for message #3)
+- dancing.mp4 (for message #4)
+- concentration.jpg (for message #7)
+- movie-night.jpg (for message #11)
+- grocery-shopping.jpg (for message #19)
+- heart.jpg (for message #24)
+- celebration.mp4 (for message #25)
+
+HOW TO ADD YOUR FILES:
+1. Copy your photos/videos to this folder
+2. Update the file names in data.js to match your files
+3. Test the game to make sure everything loads correctly
+
+💡 TIP: You can delete this file once you've added your own media!
+
+Happy customizing! 💕 
